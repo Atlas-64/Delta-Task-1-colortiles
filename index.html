@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="pratik_style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <title>Colour Tile Puzzle</title>
+</head>
+<body>
+    <h1>Colour Tile Puzzle</h1>
+    <div id="clockdiv">
+        <div>
+            <span class="minutes"></span>
+        </div>
+        <div>
+            <span class="seconds"></span>
+        </div>
+    </div>
+      
+
+    <button id = "playButton" onclick="play()">Play</button>
+    <button id = "resetButton" onclick="reset()">Reset</button>
+    <h3 id = "scoreboard"></h3>
+    <h3 id = "highScore"></h3>
+    <h3 id = "bestTime"></h3>
+      
+    <div id="container1">
+        <ul class="Playerboard">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li></li>
+            <li></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li></li>
+            <li></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li class = "innertile"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <h2>Pattern</h2>
+    <div id="container2">
+        <ul class="PatternBoard">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+<script src="pratik.js"></script>
+</html>

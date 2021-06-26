@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  text-align: center;
+  flex-direction: column;
+  padding-top: 2%;
+}
+h1 {
+  color: white;
+  font-family: 'Sofia';
+  font-size: 30px;
+  text-align: center;
+  position: relative; 
+}
+h2 {
+  color: white;
+  font-family: 'Sofia';
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  left: 130px;
+  bottom: 710px;
+  
+}
+#container1 {
+  width: 500px;
+  position: absolute;
+  height: 500px;
+  background: white;
+  margin: 10px auto;
+  top: 100px;
+  left: 500px;
+}
+#container2 {
+  width: 225px;
+  height: 225px;
+  background:#02ffb4;
+  margin: 10px auto;
+  position: absolute;
+  right: 1250px;
+  top: 35px;
+}
+.Playerboard {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: purple;
+}
+.Playerboard li {
+  background: purple;
+  width: 88px;
+  height: 88px;
+  margin-top: 10px;
+  padding-top: 3rem;
+}
+.innertile{
+  width: 88px;
+  height: 88px;
+  border: 5px solid #02ffb4;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.PatternBoard {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  right: 1250px;
+  top: 100px;
+}
+
+.PatternBoard li {
+  background: black;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 3px solid white;
+  margin-top: 11px;
+  margin-left: 10px;
+  padding-top: 3rem;
+  border-radius: 5px;
+}
+
+#playButton {
+  background-color: white;
+  position:absolute;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(71, 22, 94);
+  font-family: 'Sofia';
+  text-align: center;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  left: 575px;
+  top: 650px;
+}
+#resetButton {
+  background-color: white;
+  position:absolute;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(71, 22, 94);
+  font-family: 'Sofia';
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  left: 800px;
+  top: 650px;
+}
+#scoreboard {
+  position: absolute;
+  font-family: 'Sofia';
+  color: white;
+  font-size: 30px;
+  left: 108px;
+  top: 350px;
+}
+
+#highScore {
+  position: absolute;
+  font-family: 'Sofia';
+  color: white;
+  font-size: 30px;
+  left: 108px;
+  top: 450px;
+}
+
+#bestTime {
+  position: absolute;
+  font-family: 'Sofia';
+  color: white;
+  font-size: 30px;
+  left: 108px;
+  top: 500px;
+}
